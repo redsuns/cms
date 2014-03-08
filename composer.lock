@@ -1,0 +1,406 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "17dedac751aba0ce9f2edc4a2d4a4947",
+    "packages": [
+        {
+            "name": "cakephp/cakephp",
+            "version": "3.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/cakephp.git",
+                "reference": "ca2a4fb62124eb0d187318b6cf5985f39972b219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/ca2a4fb62124eb0d187318b6cf5985f39972b219",
+                "reference": "ca2a4fb62124eb0d187318b6cf5985f39972b219",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-mcrypt": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "src/Console/cake"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cake\\": "src",
+                    "Cake\\Test\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/cakephp/graphs/contributors"
+                }
+            ],
+            "description": "The CakePHP framework",
+            "homepage": "http://cakephp.org",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2014-03-08 15:10:35"
+        },
+        {
+            "name": "cakephp/debug_kit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/debug_kit.git",
+                "reference": "9285f06568dc86d5b6ebd53d351999fb26f5dbb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/9285f06568dc86d5b6ebd53d351999fb26f5dbb2",
+                "reference": "9285f06568dc86d5b6ebd53d351999fb26f5dbb2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                },
+                "installer-name": "DebugKit"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Story",
+                    "homepage": "http://mark-story.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP Debug Kit",
+            "homepage": "https://github.com/cakephp/debug_kit",
+            "keywords": [
+                "cakephp",
+                "debug",
+                "kit"
+            ],
+            "time": "2014-03-04 17:11:13"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "shasum": ""
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-02-24 04:21:34"
+        },
+        {
+            "name": "josegonzalez/cakephp-upload",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josegonzalez/cakephp-upload.git",
+                "reference": "f1d1f2ba8ddf5a8aed233415c2a0e0da45a716ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josegonzalez/cakephp-upload/zipball/f1d1f2ba8ddf5a8aed233415c2a0e0da45a716ff",
+                "reference": "f1d1f2ba8ddf5a8aed233415c2a0e0da45a716ff",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Upload"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Würth",
+                    "email": "ravage@bluewin.ch",
+                    "homepage": "https://github.com/ravage84",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Jose Diaz-Gonzalez",
+                    "email": "email@josediazgonzalez.com",
+                    "homepage": "http://josediazgonzalez.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Joshua Paling",
+                    "homepage": "https://github.com/joshuapaling",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "sdoney",
+                    "homepage": "https://github.com/sdoney",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Giuliano B",
+                    "homepage": "https://github.com/giulianob",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Justin Slamka",
+                    "homepage": "https://github.com/slamkajs",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Nathan Tyler",
+                    "homepage": "https://github.com/tylerdigital",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Mirko Chialastri",
+                    "homepage": "https://github.com/hiryu85",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Benjamin Allison",
+                    "homepage": "https://github.com/benjaminallison",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ariel Patschiki",
+                    "homepage": "https://github.com/arielpts",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "lucfranken",
+                    "homepage": "https://github.com/lucfranken",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "cpierce",
+                    "homepage": "https://github.com/cpierce",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Barry Chapman",
+                    "homepage": "https://github.com/barrychapman",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Thomas Edvalson",
+                    "homepage": "https://github.com/Cruel",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Alejandro Ibarra",
+                    "homepage": "https://github.com/ajibarra",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "simkimsia",
+                    "homepage": "https://github.com/simkimsia",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Callum Macdonald",
+                    "homepage": "https://github.com/chmac",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "David Kullmann",
+                    "homepage": "https://github.com/dkullmann",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Juan Basso",
+                    "homepage": "https://github.com/jrbasso",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Cauan Cabral",
+                    "homepage": "https://github.com/CauanCabral",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Bryan Crowe",
+                    "homepage": "https://github.com/bcrowe",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Simon Brown",
+                    "homepage": "https://github.com/Simes",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "wilsolutions",
+                    "homepage": "https://github.com/wilsolutions",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Graham Watson",
+                    "homepage": "https://github.com/PhantomWatson",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "ceallred",
+                    "homepage": "https://github.com/ceallred",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "CakePHP plugin to handle file uploading sans ridiculous automagic",
+            "homepage": "http://github.com/josegonzalez/cakephp-upload",
+            "keywords": [
+                "Behavior",
+                "cakephp",
+                "files",
+                "upload"
+            ],
+            "time": "2014-03-06 03:39:47"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "d11wtq/boris",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/d11wtq/boris.git",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-pcntl": "*",
+                "ext-posix": "*",
+                "ext-readline": "*"
+            },
+            "bin": [
+                "bin/boris"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Boris": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-01-17 12:21:18"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cakephp/cakephp": 20,
+        "cakephp/debug_kit": 20,
+        "josegonzalez/cakephp-upload": 20
+    },
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": [
+
+    ]
+}
