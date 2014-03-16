@@ -43,7 +43,7 @@ use Cake\Routing\Router;
  *  `App\Controller\Manager` and `/manager/controller/index`
  *
  */
-Configure::write('Routing.prefixes', array('admin'));
+Configure::write('Routing.prefixes', ['admin']);
 
 /**
  * Here, we are connecting '/' (base path) to controller called 'Pages',

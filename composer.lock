@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "ca2a4fb62124eb0d187318b6cf5985f39972b219"
+                "reference": "b79461a049e71a7db1d521ac6cfb9246d0532e90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/ca2a4fb62124eb0d187318b6cf5985f39972b219",
-                "reference": "ca2a4fb62124eb0d187318b6cf5985f39972b219",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/b79461a049e71a7db1d521ac6cfb9246d0532e90",
+                "reference": "b79461a049e71a7db1d521ac6cfb9246d0532e90",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-03-08 15:10:35"
+            "time": "2014-03-16 01:46:07"
         },
         {
             "name": "cakephp/debug_kit",
@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "9285f06568dc86d5b6ebd53d351999fb26f5dbb2"
+                "reference": "c01d0db8da0052f54d70c0532ef774c92e493513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/9285f06568dc86d5b6ebd53d351999fb26f5dbb2",
-                "reference": "9285f06568dc86d5b6ebd53d351999fb26f5dbb2",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/c01d0db8da0052f54d70c0532ef774c92e493513",
+                "reference": "c01d0db8da0052f54d70c0532ef774c92e493513",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2014-03-04 17:11:13"
+            "time": "2014-03-16 01:54:54"
         },
         {
             "name": "composer/installers",
